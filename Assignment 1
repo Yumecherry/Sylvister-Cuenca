@@ -1,5 +1,5 @@
 print()
-print("                  -Employees Salary Check-")
+print("-Employees Salary Check-")
 print()
 
 employer_name = str(input("Employer Name:"))
