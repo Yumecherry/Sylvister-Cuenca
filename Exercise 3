@@ -1,0 +1,10 @@
+str = input("Please Enter:",)
+Lower = 0
+Upper = 0
+for i in str:
+      if(i.islower()):
+            Lower+=1
+      else:
+            Upper+=1
+print("The number of Lowercase characters is:",Lower)
+print("The number of Uppercase characters is:",Upper)
