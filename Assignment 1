@@ -1,0 +1,30 @@
+print()
+print("                  -Employees Salary Check-")
+print()
+
+employer_name = str(input("Employer Name:"))
+office = str(input("Office [IT, ACCT, HR] :"))
+years_of_service = float(input("No. of years in service:"))
+
+if (office.lower() == 'it') and (years_of_service >= 10):
+    salary = 10000
+elif (office.lower() == 'it') and (years_of_service < 10):
+        salary = 5000
+elif (office.lower() == 'acct') and (years_of_service >= 10):
+    salary = 12000
+elif (office.lower() == 'acct') and (years_of_service < 10):
+    salary = 6000
+elif (office.lower() == 'hr') and (years_of_service >= 10):
+    salary = 15000
+else:
+        salary = 7500
+
+print()
+print()
+print("Employer Name:",employer_name)
+print("Office:",office.upper())
+print("Years of Service:",str(years_of_service))
+print("Salary:",salary)
+print()
+print()
+print(":3")￼Enter
