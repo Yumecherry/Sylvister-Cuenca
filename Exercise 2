@@ -4,8 +4,13 @@ Math = input("Math:")
 English = input("English:")
 total = float(Science) + float(Math) + float(English)
 Average = float(total)/3
-print(Average)
+
+print("Name:",Name)
+print("Science:",Science)
+print("Math:",Math)
+print("Name:",English)
+print("Average:",Average)
 if Average < 75:
-    print("You Failed")
+    print("You Failed :<")
 if Average > 75:
     print("Congratulations You Passed!!")
