@@ -36,6 +36,6 @@ while True:
 
 print()
 print()
-print("Final records:", data)
+print("Final data:", data)
 print()
 print("THANK YOU")
