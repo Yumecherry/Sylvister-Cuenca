@@ -1,4 +1,4 @@
-records = {}
+data = {}
 
 
 while True:
@@ -36,4 +36,6 @@ while True:
 
 print()
 print()
-print("Final records:", records)
+print("Final records:", data)
+print()
+print("THANK YOU")
