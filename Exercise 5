@@ -1,1 +1,4 @@
-
+number = 0
+while number  <= 20:
+    print("Output number", number)
+    number += 1
